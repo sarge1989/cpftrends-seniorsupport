@@ -5,6 +5,14 @@ gsap.registerPlugin(ScrollTrigger);
 //     markers: true
 // });
 
+let loader = document.querySelector('.loader');
+
+window.addEventListener("load", () => {
+  loader.style.display = "none";
+});
+
+
+
 //01_Cover
   const titlePage = lottie.loadAnimation({
   container: document.querySelector(".government-cover-1"), // the dom element that will contain the animation
