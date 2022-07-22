@@ -13,7 +13,7 @@ html, body{
 }
 
 .loader{
-    background: aquamarine;
+    background: rgb(255, 255, 255);
     position: fixed;
     height: 100vh;
     width: 100vw;
@@ -30,7 +30,7 @@ html, body{
 .cover{ 
     background: 
         linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* the gradient on top, adjust color and opacity to your taste */
-        url(/img/title_page.jpg) no-repeat center center fixed;
+        url(/img/title-page.jpg) no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     position: static;
