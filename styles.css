@@ -30,11 +30,7 @@ html, body{
 .cover{ 
     background: 
         linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* the gradient on top, adjust color and opacity to your taste */
-<<<<<<< HEAD
         url(img/title-page.jpg) no-repeat center center fixed;
-=======
-        url(/img/title-page.jpg) no-repeat center center fixed;
->>>>>>> testing-preloader
     background-size: cover;
     background-attachment: fixed;
     position: static;

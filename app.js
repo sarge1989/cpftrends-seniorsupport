@@ -8,10 +8,6 @@ gsap.registerPlugin(ScrollTrigger);
 let loader = document.querySelector('.loader');
 let html = document.querySelector('html');
 
-// window.addEventListener("load", () => {
-//   loader.style.display = "none";
-// });
-
 setTimeout(() => {
   loader.style.display = "none";
   html.style.overflowY = "visible";
