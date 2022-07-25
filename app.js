@@ -8,6 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 let loader = document.querySelector('.loader');
 let html = document.querySelector('html');
 
+//loading screen with a 0.25 seconds delay after for first animation to not look laggy
 window.addEventListener("load", () => {
   loader.style.display = "none";
   html.style.overflowY = "visible";
