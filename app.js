@@ -8,26 +8,44 @@ gsap.registerPlugin(ScrollTrigger);
 let loader = document.querySelector('.loader');
 let html = document.querySelector('html');
 
-setTimeout(() => {
+window.addEventListener("load", () => {
   loader.style.display = "none";
   html.style.overflowY = "visible";
-}, 3000);
+  setTimeout(() => {
+    const titlePage = lottie.loadAnimation({
+      container: document.querySelector(".government-cover-1"), // the dom element that will contain the animation
+      renderer: 'svg',
+      loop: 0,
+      autoplay: true,
+      path: "./animations/01_Cover.json", // the path to the animation json
+      rendererSettings: {
+        preserveAspectRatio: 'xMidYMid slice'
+      }
+    });
+    titlePage.setSpeed(0.8); //1 is the current speed;
+  }, 250);
+});
 
-//01_Cover, there was a lag in the animation but I didnt know how to solve it
-setTimeout(() => {
-  const titlePage = lottie.loadAnimation({
-    container: document.querySelector(".government-cover-1"), // the dom element that will contain the animation
-    renderer: 'svg',
-    loop: 0,
-    autoplay: true,
-    path: "./animations/01_Cover.json", // the path to the animation json
-    rendererSettings: {
-      preserveAspectRatio: 'xMidYMid slice'
-    }
-  });
+// setTimeout(() => {
+//   loader.style.display = "none";
+//   html.style.overflowY = "visible";
+// }, 3000);
+
+// //01_Cover, there was a lag in the animation but I didnt know how to solve it
+// setTimeout(() => {
+//   const titlePage = lottie.loadAnimation({
+//     container: document.querySelector(".government-cover-1"), // the dom element that will contain the animation
+//     renderer: 'svg',
+//     loop: 0,
+//     autoplay: true,
+//     path: "./animations/01_Cover.json", // the path to the animation json
+//     rendererSettings: {
+//       preserveAspectRatio: 'xMidYMid slice'
+//     }
+//   });
   
-  titlePage.setSpeed(0.8); //1 is the current speed;
-}, 3000);
+//   titlePage.setSpeed(0.8); //1 is the current speed;
+// });
   
 
 
