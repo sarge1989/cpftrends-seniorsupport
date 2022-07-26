@@ -27,28 +27,6 @@ window.addEventListener("load", () => {
   }, 250);
 });
 
-// setTimeout(() => {
-//   loader.style.display = "none";
-//   html.style.overflowY = "visible";
-// }, 3000);
-
-// //01_Cover, there was a lag in the animation but I didnt know how to solve it
-// setTimeout(() => {
-//   const titlePage = lottie.loadAnimation({
-//     container: document.querySelector(".government-cover-1"), // the dom element that will contain the animation
-//     renderer: 'svg',
-//     loop: 0,
-//     autoplay: true,
-//     path: "./animations/01_Cover.json", // the path to the animation json
-//     rendererSettings: {
-//       preserveAspectRatio: 'xMidYMid slice'
-//     }
-//   });
-  
-//   titlePage.setSpeed(0.8); //1 is the current speed;
-// });
-  
-
 
 /////LOTTIE ANIMATION FUNC
 const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
@@ -160,7 +138,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-5",
   start: "top top",
-  end: "1500%",
+  end: "1460%",
   pin: true,
 });
 
@@ -180,7 +158,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-6",
   start: "top top",
-  end: "500%",
+  end: "450%",
   pin: true,
 });
 
@@ -224,7 +202,7 @@ ScrollLottie({
   path: "./animations/09_Cover.json",
   duration: 1,
   end: "+=350%",
-  totalFrames: 82,
+  totalFrames: 81,
   start: "top top",
   pin: true,
   startingFrame: 0,

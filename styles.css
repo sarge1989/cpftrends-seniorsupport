@@ -43,9 +43,9 @@ html, body{
 #cpf-logo{
     z-index: 1;
     position: absolute;
-    top: -3%;
-    left: -1%;
-    height: 120%;
+    top: 0;
+    left: 0;
+    height: 90%;
     width: auto;
 }
 
