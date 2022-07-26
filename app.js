@@ -84,7 +84,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-2",
   start: "top top",
-  end: "1035%",
+  end: "1000%",
   pin: true,
 });
 
@@ -138,7 +138,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-5",
   start: "top top",
-  end: "1460%",
+  end: "1430%",
   pin: true,
 });
 
