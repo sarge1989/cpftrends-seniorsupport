@@ -105,7 +105,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-3",
   start: "top top",
-  end: "600%",
+  end: "490%",
   pin: true,
 });
 
@@ -131,7 +131,7 @@ ScrollLottie({
   totalFrames: 782,
   start: "top 90%",
   pin: false,
-  startingFrame: 0,
+  startingFrame: 20,
   aspectRatio : 'xMidYMin meet'
 });
 
@@ -148,7 +148,7 @@ ScrollLottie({
   path: "./animations/06_LovedOnes.json",
   duration: 1,
   end: "+=600%",
-  totalFrames: 160,
+  totalFrames: 142,
   start: "top 85%",
   pin: false,
   startingFrame: 0,
@@ -158,7 +158,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-6",
   start: "top top",
-  end: "450%",
+  end: "430%",
   pin: true,
 });
 
