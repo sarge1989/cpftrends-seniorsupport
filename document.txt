@@ -5,6 +5,15 @@
 5. Use code to animate it on scroll.
 	-code includes libraries from gsap (mainly ScrollTrigger) and lottie-web
 	-its a function I found online and I added somemore parameters that we can set to change the way the animation plays on scroll
+6. (Main idea)
+	- Lottie-web used to load and render JSON files onto the webpage
+	-scrolltrigger is used to tie the animation(JSON files) onto the user's scroll, as well as to set up different parameters to improve the overall scrollytelling exprience
+7. (in depth line by line code from start)
+	-explaining what HTML div does, what classes do
+	-explain the CSS for the different classes
+	-line by line javascript functions that i set to use(obj)
+
+	-line by line explanation of the actual function???
 
 
 Useful Links:
