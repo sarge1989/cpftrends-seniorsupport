@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
       container: document.querySelector(".government-cover-1"), // the dom element that will contain the animation
       renderer: 'svg',
       loop: 0,
-      autoplay: true,
+      autoplay: true, //it is true here as the designers want the first animation to be auto played
       path: "./animations/01_Cover.json", // the path to the animation json
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice'

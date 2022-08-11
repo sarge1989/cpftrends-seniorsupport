@@ -57,7 +57,7 @@ html, body{
     height: 100vh;
 }
 
-/* CSS for animatiins with pie chart */
+/* CSS for animations with pie chart */
 .pie-chart {
     background: 
         linear-gradient(0deg, rgba(182, 217, 213, 0.3), rgba(182, 217, 213, 0.3)), /* the gradient on top, adjust color and opacity to your taste */
