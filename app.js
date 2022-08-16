@@ -62,7 +62,7 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
           onUpdate: () => {
            anim.goToAndStop(timeObj.currentFrame, true)
           },
-          ease: 'power1.out'
+          ease: 'power0.out'
          })
         } else {
           anim.goToAndStop(self.progress *  ((anim.totalFrames - 1) +obj.startingFrame) , true)
