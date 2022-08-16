@@ -11,6 +11,10 @@ let html = document.querySelector('html');
 //playing different lottie animations based on aspect ratio
 let s = window.innerWidth < window.innerHeight ? "_m" : "_d"
 
+if (s === "_m") {
+  ScrollTrigger.normalizeScroll(true)
+}
+
 //loading screen with a 0.25 seconds delay after for first animation to not look laggy
 window.addEventListener("load", () => {
   loader.style.display = "none";
