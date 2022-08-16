@@ -96,7 +96,7 @@ ScrollLottie({
   target: ".government-3",
   path: `./animations/03_Gov${s}.json`,
   duration: 1,
-  end: s == "_d" ? "+=650%" : "+=500%",
+  end: s == "_d" ? "+=650%" : "+=450%",
   // totalFrames: 270,
   start: "top 85%",
   pin: false,
@@ -107,7 +107,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-3",
   start: "top top",
-  end: s == "_d" ? "+=490%" : "+=290%",
+  end: s == "_d" ? "+=490%" : "+=330%",
   pin: true,
 });
 
@@ -129,7 +129,7 @@ ScrollLottie({
   target: ".loved-ones-5",
   path: `./animations/05_LovedOnes${s}.json`,
   duration: 1,
-  end: s == "_d" ? "+=1600%" : "+=600%",
+  end: s == "_d" ? "+=1600%" : "+=620%",
   // totalFrames: 782,
   start: "top 90%",
   pin: false,
@@ -140,7 +140,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-5",
   start: "top top",
-  end: s == "_d" ? "+=1430%" : "+=450%",
+  end: s == "_d" ? "+=1430%" : "+=500%",
   pin: true,
 });
 
@@ -194,7 +194,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".gov-loved-ones-8",
   start: "top top",
-  end: s == "_d" ? "+=720%" : "+=180%",
+  end: s == "_d" ? "+=720%" : "+=140%",
   pin: true,
 });
 
