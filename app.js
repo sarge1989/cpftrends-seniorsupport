@@ -78,7 +78,7 @@ ScrollLottie({
     target: ".government-2", //the division the lottie animation will be in
     path: `./animations/02_Gov${s}.json`, //downloaded json file
     duration: s == "_d" ? 1 : 0.5, //adds smooth scrolling, can set any number
-    end: s == "_d" ? "+=1200%" : "+=350%", //how many percent of the viewheight a user has to scroll to finish the animation
+    end: s == "_d" ? "+=1200%" : "+=480%", //how many percent of the viewheight a user has to scroll to finish the animation
     // totalFrames: 708, //get this from the website. essentially the total frames for the whole animation (if want to set this can change anim.totalFrames to obj.totalFrames in the function above)
     start: "top 99%", //where trigger starts
     pin: false,
@@ -90,7 +90,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-2",
   start: "top top",
-  end: s == "_d" ? "+=1000%" : "+=200%",
+  end: s == "_d" ? "+=1000%" : "+=350%",
   pin: true,
 });
 
@@ -198,7 +198,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".gov-loved-ones-8",
   start: "top top",
-  end: s == "_d" ? "+=720%" : "+=125%",
+  end: s == "_d" ? "+=720%" : "+=185%",
   pin: true,
 });
 
