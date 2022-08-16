@@ -13,12 +13,13 @@ window.addEventListener("load", () => {
   loader.style.display = "none";
   html.style.overflowY = "visible";
   setTimeout(() => {
+    let jsonPath = window.innerWidth < window.innerHeight ? "./animations/01_Cover_m.json" : "./animations/01_Cover.json" 
     const titlePage = lottie.loadAnimation({
       container: document.querySelector(".government-cover-1"), // the dom element that will contain the animation
       renderer: 'svg',
       loop: 0,
       autoplay: true, //it is true here as the designers want the first animation to be auto played
-      path: "./animations/01_Cover.json", // the path to the animation json
+      path: jsonPath, // the path to the animation json
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice'
       }
@@ -68,9 +69,11 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
 
 
 //02_Gov
+let gov2 = window.innerWidth < window.innerHeight ? "./animations/02_Gov_m.json" : "./animations/02_Gov.json"
+
 ScrollLottie({
     target: ".government-2", //the division the lottie animation will be in
-    path: "./animations/02_Gov.json", //downloaded json file
+    path: gov2, //downloaded json file
     duration: 1, //adds smooth scrolling, can set any number
     end: "+=1200%", //how many percent of the viewheight a user has to scroll to finish the animation
     totalFrames: 708, //get this from the website. essentially the total frames for the whole animation
@@ -90,9 +93,11 @@ ScrollTrigger.create({
 
 
 //03_Gov
+let gov3 = window.innerWidth < window.innerHeight ? "./animations/03_Gov_m.json" : "./animations/03_Gov.json"
+
 ScrollLottie({
   target: ".government-3",
-  path: "./animations/03_Gov.json",
+  path: gov3,
   duration: 1,
   end: "+=650%",
   totalFrames: 270,
@@ -110,9 +115,11 @@ ScrollTrigger.create({
 });
 
 //04_Cover
+let cover4 = window.innerWidth < window.innerHeight ? "./animations/04_Cover_m.json" : "./animations/04_Cover.json"
+
 ScrollLottie({
   target: ".loved-ones-cover-4",
-  path: "./animations/04_Cover.json",
+  path: cover4,
   duration: 1,
   end: "+=300%",
   totalFrames: 82,
@@ -123,9 +130,11 @@ ScrollLottie({
 });
 
 //05_LovedOnes
+let lovedOnes5 = window.innerWidth < window.innerHeight ? "./animations/05_LovedOnes_m.json" : "./animations/05_LovedOnes.json"
+
 ScrollLottie({
   target: ".loved-ones-5",
-  path: "./animations/05_LovedOnes.json",
+  path: lovedOnes5,
   duration: 1,
   end: "+=1600%",
   totalFrames: 782,
@@ -143,9 +152,11 @@ ScrollTrigger.create({
 });
 
 //06_LovedOnes
+let lovedOnes6 = window.innerWidth < window.innerHeight ? "./animations/06_LovedOnes_m.json" : "./animations/06_LovedOnes.json"
+
 ScrollLottie({
   target: ".loved-ones-6",
-  path: "./animations/06_LovedOnes.json",
+  path: lovedOnes6,
   duration: 1,
   end: "+=600%",
   totalFrames: 142,
@@ -164,9 +175,11 @@ ScrollTrigger.create({
 
 
 //07_Cover
+let cover7 = window.innerWidth < window.innerHeight ? "./animations/07_Cover_m.json" : "./animations/07_Cover.json"
+
 ScrollLottie({
   target: ".gov-loved-ones-cover-7",
-  path: "./animations/07_Cover.json",
+  path: cover7,
   duration: 1,
   end: "+=300%",
   totalFrames: 82,
@@ -177,9 +190,11 @@ ScrollLottie({
 });
 
 //08_GovLovedOnes
+let govLovedOnes8 = window.innerWidth < window.innerHeight ? "./animations/08_GovLovedOnes_m.json" : "./animations/08_GovLovedOnes.json"
+
 ScrollLottie({
   target: ".gov-loved-ones-8",
-  path: "./animations/08_GovLovedOnes.json",
+  path: govLovedOnes8,
   duration: 1,
   end: "+=900%",
   totalFrames: 437,
@@ -197,9 +212,11 @@ ScrollTrigger.create({
 });
 
 //09_Cover
+let cover9 = window.innerWidth < window.innerHeight ? "./animations/09_Cover_m.json" : "./animations/09_Cover.json"
+
 ScrollLottie({
   target: ".ending-9",
-  path: "./animations/09_Cover.json",
+  path: cover9,
   duration: 1,
   end: "+=350%",
   totalFrames: 81,
