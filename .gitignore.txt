@@ -1,2 +1,2 @@
-scrollytelling deskstop.docx
-scrollytelling deskstop.txt
+.scrollytelling deskstop.docx
+.scrollytelling deskstop.txt
