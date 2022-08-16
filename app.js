@@ -96,7 +96,7 @@ ScrollLottie({
   target: ".government-3",
   path: `./animations/03_Gov${s}.json`,
   duration: 1,
-  end: s == "_d" ? "+=650%" : "+=325",
+  end: s == "_d" ? "+=650%" : "+=325%",
   // totalFrames: 270,
   start: "top 85%",
   pin: false,
