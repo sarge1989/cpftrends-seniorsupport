@@ -74,7 +74,7 @@ ScrollLottie({
     target: ".government-2", //the division the lottie animation will be in
     path: `./animations/02_Gov${s}.json`, //downloaded json file
     duration: s == "_d" ? 1 : 0.5, //adds smooth scrolling, can set any number
-    end: s == "_d" ? "+=1200%" : "+=500%", //how many percent of the viewheight a user has to scroll to finish the animation
+    end: s == "_d" ? "+=1200%" : "+=350%", //how many percent of the viewheight a user has to scroll to finish the animation
     // totalFrames: 708, //get this from the website. essentially the total frames for the whole animation (if want to set this can change anim.totalFrames to obj.totalFrames in the function above)
     start: "top 99%", //where trigger starts
     pin: false,
@@ -86,7 +86,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-2",
   start: "top top",
-  end: s == "_d" ? "+=1000%" : "+=350%",
+  end: s == "_d" ? "+=1000%" : "+=150%",
   pin: true,
 });
 
@@ -96,9 +96,9 @@ ScrollLottie({
   target: ".government-3",
   path: `./animations/03_Gov${s}.json`,
   duration: s == "_d" ? 1 : 0.5,
-  end: s == "_d" ? "+=650%" : "+=450%",
+  end: s == "_d" ? "+=650%" : "+=350%",
   // totalFrames: 270,
-  start: "top 85%",
+  start: "top center",
   pin: false,
   startingFrame: 0,
   aspectRatio : 'xMidYMin meet'
@@ -107,7 +107,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-3",
   start: "top top",
-  end: s == "_d" ? "+=490%" : "+=330%",
+  end: s == "_d" ? "+=490%" : "+=230%",
   pin: true,
 });
 
@@ -116,7 +116,7 @@ ScrollLottie({
   target: ".loved-ones-cover-4",
   path: `./animations/04_Cover${s}.json`,
   duration: s == "_d" ? 1 : 0.5,
-  end: s == "_d" ? "+=300%" : "+=150%",
+  end: s == "_d" ? "+=300%" : "+=125%",
   // totalFrames: 82,
   start: "top top",
   pin: true,
@@ -129,7 +129,7 @@ ScrollLottie({
   target: ".loved-ones-5",
   path: `./animations/05_LovedOnes${s}.json`,
   duration: s == "_d" ? 1 : 0.5,
-  end: s == "_d" ? "+=1600%" : "+=620%",
+  end: s == "_d" ? "+=1600%" : "+=580%",
   // totalFrames: 782,
   start: "top 90%",
   pin: false,
@@ -140,7 +140,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-5",
   start: "top top",
-  end: s == "_d" ? "+=1430%" : "+=480%",
+  end: s == "_d" ? "+=1430%" : "+=420%",
   pin: true,
 });
 
@@ -160,7 +160,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-6",
   start: "top top",
-  end: s == "_d" ? "+=430%" : "+=120%",
+  end: s == "_d" ? "+=430%" : "+=90%",
   pin: true,
 });
 
@@ -170,7 +170,7 @@ ScrollLottie({
   target: ".gov-loved-ones-cover-7",
   path: `./animations/07_Cover${s}.json`,
   duration: s == "_d" ? 1 : 0.5,
-  end: s == "_d" ? "+=300%" : "+=150%",
+  end: s == "_d" ? "+=300%" : "+=90%",
   // totalFrames: 82,
   start: "top top",
   pin: true,
@@ -194,7 +194,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".gov-loved-ones-8",
   start: "top top",
-  end: s == "_d" ? "+=720%" : "+=145%",
+  end: s == "_d" ? "+=720%" : "+=125%",
   pin: true,
 });
 
