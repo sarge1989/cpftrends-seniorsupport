@@ -32,11 +32,11 @@ window.addEventListener("load", () => {
 const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
 
     let anim = lottie.loadAnimation({ //https://github.com/airbnb/lottie-web/wiki/loadAnimation-options
-     container: document.querySelector(obj.target), 
-     renderer: 'svg',
+     container: document.querySelector(obj.target), //div to place the animation in 
+     renderer: 'svg', //render the json file as an svg
      loop: false,
      autoplay: false,
-     path: obj.path,
+     path: obj.path, // the json file path
      rendererSettings: { //https://github.com/airbnb/lottie-web/wiki/Renderer-Settings
         preserveAspectRatio: obj.aspectRatio} //keep aspect ratio of svg
    });
@@ -48,7 +48,7 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
        pin: obj.pin,
        start: obj.start,
        end: obj.end, 
-       onUpdate: self => {
+       onUpdate: self => { //whenever the user scrolls, the code calculates which lottie frame to show
         if(obj.duration) {
          gsap.to(timeObj, {
           duration: obj.duration,
