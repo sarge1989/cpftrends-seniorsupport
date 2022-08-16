@@ -148,24 +148,24 @@ ScrollTrigger.create({
 });
 
 //06_LovedOnes
-ScrollLottie({
-  target: ".loved-ones-6",
-  path: `./animations/06_LovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.5,
-  end: s == "_d" ? "+=600%" : "+=215%",
-  // totalFrames: 142,
-  start: "top center",
-  pin: false,
-  startingFrame: 0,
-  aspectRatio : 'xMidYMin meet'
-});
+// ScrollLottie({
+//   target: ".loved-ones-6",
+//   path: `./animations/06_LovedOnes${s}.json`,
+//   duration: s == "_d" ? 1 : 0.5,
+//   end: s == "_d" ? "+=600%" : "+=215%",
+//   // totalFrames: 142,
+//   start: "top center",
+//   pin: false,
+//   startingFrame: 0,
+//   aspectRatio : 'xMidYMin meet'
+// });
 
-ScrollTrigger.create({
-  trigger: ".loved-ones-6",
-  start: "top top",
-  end: s == "_d" ? "+=430%" : "+=90%",
-  pin: true,
-});
+// ScrollTrigger.create({
+//   trigger: ".loved-ones-6",
+//   start: "top top",
+//   end: s == "_d" ? "+=430%" : "+=90%",
+//   pin: true,
+// });
 
 
 //07_Cover
@@ -202,14 +202,14 @@ ScrollTrigger.create({
 });
 
 //09_Cover
-ScrollLottie({
-  target: ".ending-9",
-  path: `./animations/09_Cover${s}.json`,
-  duration: s == "_d" ? 1 : 0.5,
-  end: s == "_d" ? "+=350%" : "+=175%",
-  // totalFrames: 81,
-  start: "top top",
-  pin: true,
-  startingFrame: 0,
-  aspectRatio : 'xMidYMin slice'
-});
+// ScrollLottie({
+//   target: ".ending-9",
+//   path: `./animations/09_Cover${s}.json`,
+//   duration: s == "_d" ? 1 : 0.5,
+//   end: s == "_d" ? "+=350%" : "+=175%",
+//   // totalFrames: 81,
+//   start: "top top",
+//   pin: true,
+//   startingFrame: 0,
+//   aspectRatio : 'xMidYMin slice'
+// });
