@@ -86,7 +86,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-2",
   start: "top top",
-  end: s == "_d" ? "+=1000%" : "+=500%",
+  end: s == "_d" ? "+=1000%" : "+=370%",
   pin: true,
 });
 
@@ -96,7 +96,7 @@ ScrollLottie({
   target: ".government-3",
   path: `./animations/03_Gov${s}.json`,
   duration: 1,
-  end: s == "_d" ? "+=650%" : "+=325%",
+  end: s == "_d" ? "+=650%" : "+=550%",
   // totalFrames: 270,
   start: "top 85%",
   pin: false,
@@ -107,7 +107,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-3",
   start: "top top",
-  end: s == "_d" ? "+=490%" : "+=245%",
+  end: s == "_d" ? "+=490%" : "+=390%",
   pin: true,
 });
 
@@ -129,7 +129,7 @@ ScrollLottie({
   target: ".loved-ones-5",
   path: `./animations/05_LovedOnes${s}.json`,
   duration: 1,
-  end: s == "_d" ? "+=1600%" : "+=800%",
+  end: s == "_d" ? "+=1600%" : "+=700%",
   // totalFrames: 782,
   start: "top 90%",
   pin: false,
@@ -140,7 +140,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-5",
   start: "top top",
-  end: s == "_d" ? "+=1430%" : "+=715%",
+  end: s == "_d" ? "+=1430%" : "+=500%",
   pin: true,
 });
 
@@ -149,7 +149,7 @@ ScrollLottie({
   target: ".loved-ones-6",
   path: `./animations/06_LovedOnes${s}.json`,
   duration: 1,
-  end: s == "_d" ? "+=600%" : "+=300%",
+  end: s == "_d" ? "+=600%" : "+=200%",
   // totalFrames: 142,
   start: "top 85%",
   pin: false,
@@ -160,7 +160,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-6",
   start: "top top",
-  end: s == "_d" ? "+=430%" : "+=215%",
+  end: s == "_d" ? "+=430%" : "+=115%",
   pin: true,
 });
 
@@ -183,7 +183,7 @@ ScrollLottie({
   target: ".gov-loved-ones-8",
   path: `./animations/08_GovLovedOnes${s}.json`,
   duration: 1,
-  end: s == "_d" ? "+=900%" : "+=450%",
+  end: s == "_d" ? "+=900%" : "+=400%",
   // totalFrames: 437,
   start: "top 99%",
   pin: false,
@@ -194,7 +194,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".gov-loved-ones-8",
   start: "top top",
-  end: s == "_d" ? "+=720%" : "+=360%",
+  end: s == "_d" ? "+=720%" : "+=260%",
   pin: true,
 });
 
