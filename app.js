@@ -86,7 +86,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".government-2",
   start: "top top",
-  end: s == "_d" ? "+=1000%" : "+=150%",
+  end: s == "_d" ? "+=1000%" : "+=200%",
   pin: true,
 });
 
