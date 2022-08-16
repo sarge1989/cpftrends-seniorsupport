@@ -76,7 +76,7 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
 ScrollLottie({
     target: ".government-2", //the division the lottie animation will be in
     path: `./animations/02_Gov${s}.json`, //downloaded json file
-    duration: s == "_d" ? 1 : 0.5, //adds smooth scrolling, can set any number
+    duration: s == "_d" ? 1 : 1, //adds smooth scrolling, can set any number
     end: s == "_d" ? "+=1200%" : "+=380%", //how many percent of the viewheight a user has to scroll to finish the animation
     // totalFrames: 708, //get this from the website. essentially the total frames for the whole animation (if want to set this can change anim.totalFrames to obj.totalFrames in the function above)
     start: "top 99%", //where trigger starts
@@ -98,7 +98,7 @@ ScrollTrigger.create({
 ScrollLottie({
   target: ".government-3",
   path: `./animations/03_Gov${s}.json`,
-  duration: s == "_d" ? 1 : 0.5,
+  duration: s == "_d" ? 1 : 1,
   end: s == "_d" ? "+=650%" : "+=350%",
   // totalFrames: 270,
   start: "top center",
@@ -118,7 +118,7 @@ ScrollTrigger.create({
 ScrollLottie({
   target: ".loved-ones-cover-4",
   path: `./animations/04_Cover${s}.json`,
-  duration: s == "_d" ? 1 : 0.5,
+  duration: s == "_d" ? 1 : 1,
   end: s == "_d" ? "+=300%" : "+=125%",
   // totalFrames: 82,
   start: "top top",
@@ -131,7 +131,7 @@ ScrollLottie({
 ScrollLottie({
   target: ".loved-ones-5",
   path: `./animations/05_LovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.5,
+  duration: s == "_d" ? 1 : 1,
   end: s == "_d" ? "+=1600%" : "+=580%",
   // totalFrames: 782,
   start: "top 90%",
@@ -172,7 +172,7 @@ ScrollTrigger.create({
 ScrollLottie({
   target: ".gov-loved-ones-cover-7",
   path: `./animations/07_Cover${s}.json`,
-  duration: s == "_d" ? 1 : 0.5,
+  duration: s == "_d" ? 1 : 1,
   end: s == "_d" ? "+=300%" : "+=90%",
   // totalFrames: 82,
   start: "top top",
@@ -185,7 +185,7 @@ ScrollLottie({
 ScrollLottie({
   target: ".gov-loved-ones-8",
   path: `./animations/08_GovLovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.5,
+  duration: s == "_d" ? 1 : 1,
   end: s == "_d" ? "+=900%" : "+=320%",
   // totalFrames: 437,
   start: "top 99%",
