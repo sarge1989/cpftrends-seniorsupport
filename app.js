@@ -124,7 +124,7 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMid slice'
+  aspectRatio : 'xMidYMax slice'
 });
 
 //05_LovedOnes
@@ -178,7 +178,7 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMid slice'
+  aspectRatio : 'xMidYMax slice'
 });
 
 //08_GovLovedOnes
