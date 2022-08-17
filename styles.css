@@ -48,7 +48,7 @@ html, body{
 /* CSS for animations with key */
 .key {
     background: 
-        url(img/CPF-BG.png) no-repeat center center fixed;
+        url(img/CPF-BG.png) no-repeat center center;
     background-size: cover;
     /* background-attachment: fixed; */
     position: static;
