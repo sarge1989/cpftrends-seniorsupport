@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
       autoplay: true, //it is true here as the designers want the first animation to be auto played
       path: `./animations/01_Cover${s}.json`, // the path to the animation json
       rendererSettings: {
-        preserveAspectRatio: 'xMidYMin slice',
+        preserveAspectRatio: 'xMidYMax slice',
         progressiveLoad: true
       }
     });
@@ -82,7 +82,7 @@ ScrollLottie({
     start: "top 99%", //where trigger starts
     pin: false,
     startingFrame: 15, //usually 0, unless we want animation to start from a later frame in this case
-    aspectRatio : 'xMidYMin meet' //toggle svg aspect ratio setting
+    aspectRatio : 'xMidYMid meet' //toggle svg aspect ratio setting
 });
 
 //trigger for div to be pinned, has to be seperated from above ScrollLottie function as I want the animation to play at a different instance compared to when i want to pin it...
@@ -104,7 +104,7 @@ ScrollLottie({
   start: "top center",
   pin: false,
   startingFrame: 0,
-  aspectRatio : 'xMidYMin meet'
+  aspectRatio : 'xMidYMid meet'
 });
 
 ScrollTrigger.create({
@@ -137,7 +137,7 @@ ScrollLottie({
   start: "top 90%",
   pin: false,
   startingFrame: 20,
-  aspectRatio : 'xMidYMin meet'
+  aspectRatio : 'xMidYMid meet'
 });
 
 ScrollTrigger.create({
@@ -157,7 +157,7 @@ ScrollLottie({
   start: "top center",
   pin: false,
   startingFrame: 0,
-  aspectRatio : 'xMidYMin meet'
+  aspectRatio : 'xMidYMid meet'
 });
 
 ScrollTrigger.create({
@@ -191,7 +191,7 @@ ScrollLottie({
   start: "top 99%",
   pin: false,
   startingFrame: 15,
-  aspectRatio : 'xMidYMin meet'
+  aspectRatio : 'xMidYMid meet'
 });
 
 ScrollTrigger.create({
@@ -211,5 +211,5 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMis slice'
+  aspectRatio : 'xMidYMax slice'
 });
