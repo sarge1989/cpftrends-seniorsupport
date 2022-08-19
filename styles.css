@@ -37,7 +37,6 @@ html, body{
     background: 
         url(img/CPF-BG.jpg) no-repeat center center;
     background-size: cover;
-    /* background-attachment: fixed; */
     position: static;
     width: 100vw;
     height: 100vh;
@@ -49,7 +48,6 @@ html, body{
         linear-gradient(0deg, rgba(182, 217, 213, 0.3), rgba(182, 217, 213, 0.3)), /* the gradient on top, adjust color and opacity to your taste */
         url(img/CPF-BG.jpg) no-repeat center center;
     background-size: cover;
-    /* background-attachment: fixed; */
     position: static;
     width: 100vw;
     height: 100vh;
@@ -73,11 +71,11 @@ html, body{
     background-size: cover;
 }
 
-/* .ending-9 {
+.ending-9 {
     background: 
         linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(img/09_Ending.png) no-repeat center center;
+        url(img/09_Ending.jpg) no-repeat center center;
     background-size: cover;
-} */
+}
 
 
