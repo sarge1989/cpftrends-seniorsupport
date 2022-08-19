@@ -124,7 +124,7 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMax slice'
+  aspectRatio : 'xMidYMax meet'
 });
 
 //05_LovedOnes
