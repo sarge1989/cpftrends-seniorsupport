@@ -124,7 +124,7 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMax slice'
+  aspectRatio : 'xMidYMax meet'
 });
 
 //05_LovedOnes
@@ -150,7 +150,7 @@ ScrollTrigger.create({
 // 06_LovedOnes
 ScrollLottie({
   target: ".loved-ones-6",
-  path: `./animations/06_LovedOnes${s}.json`,
+  path: `./animations/06_LovedOnes_m.json`,
   duration: s == "_d" ? 1 : 0.5,
   end: s == "_d" ? "+=600%" : "+=215%",
   // totalFrames: 142,
@@ -178,7 +178,7 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMax slice'
+  aspectRatio : 'xMidYMax meet'
 });
 
 //08_GovLovedOnes
@@ -204,7 +204,7 @@ ScrollTrigger.create({
 // 09_Cover
 ScrollLottie({
   target: ".ending-9",
-  path: `./animations/09_Cover${s}.json`,
+  path: `./animations/09_Cover_m.json`,
   duration: s == "_d" ? 1 : 0.5,
   end: s == "_d" ? "+=350%" : "+=175%",
   // totalFrames: 81,

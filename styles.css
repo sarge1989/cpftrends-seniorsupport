@@ -68,7 +68,7 @@ html, body{
     height: 100vh;
 }
 
-/* .government-cover-1 {
+.government-cover-1 {
     background: 
         url(img/01_Cover.jpg) no-repeat center center;
     background-size: cover;
@@ -84,13 +84,13 @@ html, body{
     background: 
         url(img/07_Cover.jpg) no-repeat center center;
     background-size: cover;
-} */
+}
 
-/* .ending-9 {
-    background:  */
-        /* linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), the gradient on top, adjust color and opacity to your taste */
-        /* url(img/09_Ending.png) no-repeat center center;
+.ending-9 {
+    background: 
+        linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), the gradient on top, adjust color and opacity to your taste
+        url(img/09_Ending.png) no-repeat center center;
     background-size: cover;
-} */
+}
 
 
