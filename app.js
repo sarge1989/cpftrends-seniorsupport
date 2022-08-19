@@ -80,14 +80,14 @@ ScrollLottie({
     start: "top 99%", //where trigger starts
     pin: false,
     startingFrame: 15, //usually 0, unless we want animation to start from a later frame in this case
-    aspectRatio : 'xMidYMid meet' //toggle svg aspect ratio setting
+    aspectRatio : 'xMidYMin meet' //toggle svg aspect ratio setting
 });
 
 //trigger for div to be pinned, has to be seperated from above ScrollLottie function as I want the animation to play at a different instance compared to when i want to pin it...
 ScrollTrigger.create({
   trigger: ".government-2",
   start: "top top",
-  end: s == "_d" ? "+=1000%" : "+=230%",
+  end: s == "_d" ? "+=1000%" : "+=200%",
   pin: true,
 });
 
@@ -101,7 +101,7 @@ ScrollLottie({
   start: "top center",
   pin: false,
   startingFrame: 0,
-  aspectRatio : 'xMidYMid meet'
+  aspectRatio : 'xMidYMin meet'
 });
 
 ScrollTrigger.create({
@@ -132,7 +132,7 @@ ScrollLottie({
   start: "top 90%",
   pin: false,
   startingFrame: 20,
-  aspectRatio : 'xMidYMid meet'
+  aspectRatio : 'xMidYMin meet'
 });
 
 ScrollTrigger.create({
@@ -151,7 +151,7 @@ ScrollLottie({
   start: "top center",
   pin: false,
   startingFrame: 0,
-  aspectRatio : 'xMidYMid meet'
+  aspectRatio : 'xMidYMin meet'
 });
 
 ScrollTrigger.create({
@@ -183,7 +183,7 @@ ScrollLottie({
   start: "top 99%",
   pin: false,
   startingFrame: 15,
-  aspectRatio : 'xMidYMid meet'
+  aspectRatio : 'xMidYMin meet'
 });
 
 ScrollTrigger.create({
@@ -202,5 +202,5 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMid slice'
+  aspectRatio : 'xMidYMin slice'
 });
