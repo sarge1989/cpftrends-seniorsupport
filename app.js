@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
       autoplay: true, //it is true here as the designers want the first animation to be auto played
       path: `./animations/01_Cover${s}.json`, // the path to the animation json
       rendererSettings: {
-        preserveAspectRatio: 'xMidYMax slice',
+        preserveAspectRatio: 'xMidYMid meet',
         progressiveLoad: true
       }
     });
@@ -147,25 +147,25 @@ ScrollTrigger.create({
   pin: true,
 });
 
-//06_LovedOnes
-// ScrollLottie({
-//   target: ".loved-ones-6",
-//   path: `./animations/06_LovedOnes${s}.json`,
-//   duration: s == "_d" ? 1 : 0.5,
-//   end: s == "_d" ? "+=600%" : "+=215%",
-//   // totalFrames: 142,
-//   start: "top center",
-//   pin: false,
-//   startingFrame: 0,
-//   aspectRatio : 'xMidYMin meet'
-// });
+// 06_LovedOnes
+ScrollLottie({
+  target: ".loved-ones-6",
+  path: `./animations/06_LovedOnes${s}.json`,
+  duration: s == "_d" ? 1 : 0.5,
+  end: s == "_d" ? "+=600%" : "+=215%",
+  // totalFrames: 142,
+  start: "top center",
+  pin: false,
+  startingFrame: 0,
+  aspectRatio : 'xMidYMin meet'
+});
 
-// ScrollTrigger.create({
-//   trigger: ".loved-ones-6",
-//   start: "top top",
-//   end: s == "_d" ? "+=430%" : "+=90%",
-//   pin: true,
-// });
+ScrollTrigger.create({
+  trigger: ".loved-ones-6",
+  start: "top top",
+  end: s == "_d" ? "+=430%" : "+=90%",
+  pin: true,
+});
 
 
 //07_Cover
@@ -201,15 +201,15 @@ ScrollTrigger.create({
   pin: true,
 });
 
-//09_Cover
-// ScrollLottie({
-//   target: ".ending-9",
-//   path: `./animations/09_Cover${s}.json`,
-//   duration: s == "_d" ? 1 : 0.5,
-//   end: s == "_d" ? "+=350%" : "+=175%",
-//   // totalFrames: 81,
-//   start: "top top",
-//   pin: true,
-//   startingFrame: 0,
-//   aspectRatio : 'xMidYMin slice'
-// });
+// 09_Cover
+ScrollLottie({
+  target: ".ending-9",
+  path: `./animations/09_Cover${s}.json`,
+  duration: s == "_d" ? 1 : 0.5,
+  end: s == "_d" ? "+=350%" : "+=175%",
+  // totalFrames: 81,
+  start: "top top",
+  pin: true,
+  startingFrame: 0,
+  aspectRatio : 'xMidYMis meet'
+});
