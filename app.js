@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
       autoplay: true, //it is true here as the designers want the first animation to be auto played
       path: `./animations/01_Cover${s}.json`, // the path to the animation json
       rendererSettings: {
-        preserveAspectRatio: 'xMidYMid meet',
+        preserveAspectRatio: 'xMidYMid slice',
         progressiveLoad: true
       }
     });
@@ -124,7 +124,7 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMax meet'
+  aspectRatio : 'xMidYMax slice'
 });
 
 //05_LovedOnes
@@ -178,7 +178,7 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMax meet'
+  aspectRatio : 'xMidYMax slice'
 });
 
 //08_GovLovedOnes
@@ -211,5 +211,5 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMis meet'
+  aspectRatio : 'xMidYMis slice'
 });
