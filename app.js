@@ -67,7 +67,6 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
         }
        }
    });  
-  
   }
 
 //02_Gov
@@ -202,5 +201,5 @@ ScrollLottie({
   start: "top top",
   pin: true,
   startingFrame: 0,
-  aspectRatio : 'xMidYMin slice'
+  aspectRatio : 'xMidYMid slice'
 });
