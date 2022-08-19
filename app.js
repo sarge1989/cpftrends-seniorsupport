@@ -163,7 +163,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-6",
   start: "top top",
-  end: s == "_d" ? "+=430%" : "+=90%",
+  end: s == "_d" ? "+=430%" : "+=130%",
   pin: true,
 });
 
