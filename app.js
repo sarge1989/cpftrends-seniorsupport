@@ -24,7 +24,6 @@ window.addEventListener("load", () => {
       path: `./animations/01_Cover${s}.json`, // the path to the animation json
       rendererSettings: {
         preserveAspectRatio: 'xMidYMax slice',
-        progressiveLoad: true
       }
     });
     titlePage.setSpeed(0.8); //1 is the current speed;
@@ -43,7 +42,6 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
      path: obj.path, // the json file path
      rendererSettings: { //https://github.com/airbnb/lottie-web/wiki/Renderer-Settings
         preserveAspectRatio: obj.aspectRatio, //keep aspect ratio of svg
-        progressiveLoad: true
     } 
    });
    
