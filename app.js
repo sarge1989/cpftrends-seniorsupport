@@ -142,23 +142,23 @@ ScrollTrigger.create({
 });
 
 // 06_LovedOnes
-ScrollLottie({
-  target: ".loved-ones-6",
-  path: `./animations/06_LovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.6,
-  end: s == "_d" ? "+=600%" : "+=215%",
-  start: "top center",
-  pin: false,
-  startingFrame: 0,
-  aspectRatio : 'xMidYMin meet'
-});
+// ScrollLottie({
+//   target: ".loved-ones-6",
+//   path: `./animations/06_LovedOnes${s}.json`,
+//   duration: s == "_d" ? 1 : 0.6,
+//   end: s == "_d" ? "+=600%" : "+=215%",
+//   start: "top center",
+//   pin: false,
+//   startingFrame: 0,
+//   aspectRatio : 'xMidYMin meet'
+// });
 
-ScrollTrigger.create({
-  trigger: ".loved-ones-6",
-  start: "top top",
-  end: s == "_d" ? "+=430%" : "+=130%",
-  pin: true,
-});
+// ScrollTrigger.create({
+//   trigger: ".loved-ones-6",
+//   start: "top top",
+//   end: s == "_d" ? "+=430%" : "+=130%",
+//   pin: true,
+// });
 
 
 //07_Cover
