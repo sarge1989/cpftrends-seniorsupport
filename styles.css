@@ -56,21 +56,49 @@ html, body{
 
 .government-cover-1 {
     background: 
-        url(img/01_Cover.jpg) no-repeat center center;
+        url(img/01_Cover_m.jpg) no-repeat center center;
     background-size: cover;
+}
+
+
+
+@media (min-width: 1280px) {
+    .government-cover-1 {
+        background: 
+            url(img/01_Cover_d.jpg) no-repeat center center;
+        background-size: cover;
+    }
 }
 
 .loved-ones-cover-4 {
     background: 
-        url(img/04_Cover.jpg) no-repeat center center;
+        url(img/04_Cover_m.jpg) no-repeat center center;
     background-size: cover;
+}
+
+@media (min-width: 1280px) {
+    .loved-ones-cover-4 {
+        background: 
+            url(img/04_Cover_d.jpg) no-repeat center center;
+        background-size: cover;
+    }
 }
 
 .gov-loved-ones-cover-7 {
     background: 
-        url(img/07_Cover.jpg) no-repeat center center;
+        url(img/07_Cover_m.jpg) no-repeat center center;
     background-size: cover;
 }
+
+@media (min-width: 1280px) {
+    .gov-loved-ones-cover-7 {
+        background: 
+            url(img/07_Cover_d.jpg) no-repeat center center;
+        background-size: cover;
+    } 
+}
+
+
 
 .ending-9 {
     background: 
