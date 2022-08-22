@@ -62,7 +62,7 @@ html, body{
 
 
 
-@media (orientation: portrait) {
+@media screen and (orientation: portrait) {
     .government-cover-1 {
         background: 
             url(img/01_Cover_m.jpg) no-repeat center center;
@@ -76,7 +76,7 @@ html, body{
     background-size: cover;
 }
 
-@media (orientation: portrait) {
+@media screen and (orientation: portrait) {
     .loved-ones-cover-4 {
         background: 
             url(img/04_Cover_m.jpg) no-repeat center center;
@@ -90,7 +90,7 @@ html, body{
     background-size: cover;
 }
 
-@media (orientation: portrait) {
+@media screen and (orientation: portrait) {
     .gov-loved-ones-cover-7 {
         background: 
             url(img/07_Cover_m.jpg) no-repeat center center;
