@@ -114,7 +114,7 @@ ScrollTrigger.create({
 ScrollLottie({
   target: ".loved-ones-cover-4",
   path: `./animations/04_Cover${s}.json`,
-  duration: s == "_d" ? 1 : 0.6,
+  duration: s == "_d" ? 1 : 0.4,
   end: s == "_d" ? "+=300%" : "+=125%",
   start: "top top",
   pin: true,
@@ -126,7 +126,7 @@ ScrollLottie({
 ScrollLottie({
   target: ".loved-ones-5",
   path: `./animations/05_LovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.6,
+  duration: s == "_d" ? 1 : 0.4,
   end: s == "_d" ? "+=1600%" : "+=580%",
   start: "top 90%",
   pin: false,
@@ -145,7 +145,7 @@ ScrollTrigger.create({
 ScrollLottie({
   target: ".loved-ones-6",
   path: `./animations/06_LovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.6,
+  duration: s == "_d" ? 1 : 0.4,
   end: s == "_d" ? "+=600%" : "+=215%",
   start: "top center",
   pin: false,
@@ -156,7 +156,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".loved-ones-6",
   start: "top top",
-  end: s == "_d" ? "+=430%" : "+=130%",
+  end: s == "_d" ? "+=430%" : "+=100%",
   pin: true,
 });
 
@@ -165,7 +165,7 @@ ScrollTrigger.create({
 ScrollLottie({
   target: ".gov-loved-ones-cover-7",
   path: `./animations/07_Cover${s}.json`,
-  duration: s == "_d" ? 1 : 0.6,
+  duration: s == "_d" ? 1 : 0.4,
   end: s == "_d" ? "+=300%" : "+=90%",
   start: "top top",
   pin: true,
@@ -177,7 +177,7 @@ ScrollLottie({
 ScrollLottie({
   target: ".gov-loved-ones-8",
   path: `./animations/08_GovLovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.6,
+  duration: s == "_d" ? 1 : 0.4,
   end: s == "_d" ? "+=900%" : "+=320%",
   start: "top 99%",
   pin: false,
@@ -188,7 +188,7 @@ ScrollLottie({
 ScrollTrigger.create({
   trigger: ".gov-loved-ones-8",
   start: "top top",
-  end: s == "_d" ? "+=720%" : "+=185%",
+  end: s == "_d" ? "+=720%" : "+=120%",
   pin: true,
 });
 
