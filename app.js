@@ -52,7 +52,6 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
       pin: obj.pin,
       start: obj.start,
       end: obj.end,
-      anticipatePin: 1, 
       onUpdate: self => { //whenever the user scrolls, the code calculates which lottie frame to show
         if(obj.duration) {
          gsap.to(timeObj, {
