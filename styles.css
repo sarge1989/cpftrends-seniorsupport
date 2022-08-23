@@ -102,7 +102,6 @@ html, body{
 
 .ending-9 {
     background: 
-        linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(img/09_Ending_d.jpg) no-repeat center center;
     background-size: cover;
 }

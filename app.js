@@ -47,12 +47,13 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
    
    let timeObj = {currentFrame: 0}
    ScrollTrigger.create({ //https://greensock.com/docs/v3/Plugins/ScrollTrigger
-     trigger: obj.target,
-       scrub: true,
-       pin: obj.pin,
-       start: obj.start,
-       end: obj.end, 
-       onUpdate: self => { //whenever the user scrolls, the code calculates which lottie frame to show
+      trigger: obj.target,
+      scrub: true,
+      pin: obj.pin,
+      start: obj.start,
+      end: obj.end,
+      anticipatePin: 1, 
+      onUpdate: self => { //whenever the user scrolls, the code calculates which lottie frame to show
         if(obj.duration) {
          gsap.to(timeObj, {
           duration: obj.duration,
