@@ -69,10 +69,10 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
    });  
   }
 
-//02_Gov
+//01_HSJ
 ScrollLottie({
     target: ".government-2", //the division the lottie animation will be in
-    path: `./animations/02_Gov${s}.json`, //downloaded json file
+    path: `./animations/01_HSJ${s}.json`, //downloaded json file
     duration: s == "_d" ? 1 : 0.6, //adds smooth scrolling, can set any number
     end: s == "_d" ? "+=1200%" : "+=680%", //how many percent of the viewheight a user has to scroll to finish the animation
     // totalFrames: 708, //get this from the website. essentially the total frames for the whole animation (if want to set this can change anim.totalFrames to obj.totalFrames in the function above)
@@ -91,10 +91,10 @@ ScrollTrigger.create({
 });
 
 
-//03_Gov
+//02_HSJ
 ScrollLottie({
   target: ".government-3",
-  path: `./animations/03_Gov${s}.json`,
+  path: `./animations/02_HSJ${s}.json`,
   duration: s == "_d" ? 1 : 0.6,
   end: s == "_d" ? "+=650%" : "+=350%",
   start: "top 90%",
@@ -110,22 +110,22 @@ ScrollTrigger.create({
   pin: true,
 });
 
-//04_Cover
-ScrollLottie({
-  target: ".loved-ones-cover-4",
-  path: `./animations/04_Cover${s}.json`,
-  duration: s == "_d" ? 1 : 0.4,
-  end: s == "_d" ? "+=300%" : "+=125%",
-  start: "top top",
-  pin: true,
-  startingFrame: 0,
-  aspectRatio : 'xMidYMax slice'
-});
+// //03_HSJ
+// ScrollLottie({
+//   target: ".loved-ones-cover-4",
+//   path: `./animations/03_HSJ${s}.json`,
+//   duration: s == "_d" ? 1 : 0.4,
+//   end: s == "_d" ? "+=300%" : "+=125%",
+//   start: "top top",
+//   pin: true,
+//   startingFrame: 0,
+//   aspectRatio : 'xMidYMax slice'
+// });
 
-//05_LovedOnes
+//03_HSJ
 ScrollLottie({
   target: ".loved-ones-5",
-  path: `./animations/05_LovedOnes${s}.json`,
+  path: `./animations/03_HSJ${s}.json`,
   duration: s == "_d" ? 1 : 0.4,
   end: s == "_d" ? "+=1600%" : "+=880%",
   start: "top 90%",
@@ -141,65 +141,65 @@ ScrollTrigger.create({
   pin: true,
 });
 
-// 06_LovedOnes
-ScrollLottie({
-  target: ".loved-ones-6",
-  path: `./animations/06_LovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.4,
-  end: s == "_d" ? "+=600%" : "+=215%",
-  start: "top center",
-  pin: false,
-  startingFrame: 0,
-  aspectRatio : 'xMidYMin meet'
-});
+// // 06_LovedOnes
+// ScrollLottie({
+//   target: ".loved-ones-6",
+//   path: `./animations/06_LovedOnes${s}.json`,
+//   duration: s == "_d" ? 1 : 0.4,
+//   end: s == "_d" ? "+=600%" : "+=215%",
+//   start: "top center",
+//   pin: false,
+//   startingFrame: 0,
+//   aspectRatio : 'xMidYMin meet'
+// });
 
-ScrollTrigger.create({
-  trigger: ".loved-ones-6",
-  start: "top top",
-  end: s == "_d" ? "+=430%" : "+=100%",
-  pin: true,
-});
+// ScrollTrigger.create({
+//   trigger: ".loved-ones-6",
+//   start: "top top",
+//   end: s == "_d" ? "+=430%" : "+=100%",
+//   pin: true,
+// });
 
 
-//07_Cover
-ScrollLottie({
-  target: ".gov-loved-ones-cover-7",
-  path: `./animations/07_Cover${s}.json`,
-  duration: s == "_d" ? 1 : 0.4,
-  end: s == "_d" ? "+=300%" : "+=90%",
-  start: "top top",
-  pin: true,
-  startingFrame: 0,
-  aspectRatio : 'xMidYMax slice'
-});
+// //07_Cover
+// ScrollLottie({
+//   target: ".gov-loved-ones-cover-7",
+//   path: `./animations/07_Cover${s}.json`,
+//   duration: s == "_d" ? 1 : 0.4,
+//   end: s == "_d" ? "+=300%" : "+=90%",
+//   start: "top top",
+//   pin: true,
+//   startingFrame: 0,
+//   aspectRatio : 'xMidYMax slice'
+// });
 
-//08_GovLovedOnes
-ScrollLottie({
-  target: ".gov-loved-ones-8",
-  path: `./animations/08_GovLovedOnes${s}.json`,
-  duration: s == "_d" ? 1 : 0.4,
-  end: s == "_d" ? "+=900%" : "+=320%",
-  start: "top 99%",
-  pin: false,
-  startingFrame: 15,
-  aspectRatio : 'xMidYMin meet'
-});
+// //08_GovLovedOnes
+// ScrollLottie({
+//   target: ".gov-loved-ones-8",
+//   path: `./animations/08_GovLovedOnes${s}.json`,
+//   duration: s == "_d" ? 1 : 0.4,
+//   end: s == "_d" ? "+=900%" : "+=320%",
+//   start: "top 99%",
+//   pin: false,
+//   startingFrame: 15,
+//   aspectRatio : 'xMidYMin meet'
+// });
 
-ScrollTrigger.create({
-  trigger: ".gov-loved-ones-8",
-  start: "top top",
-  end: s == "_d" ? "+=720%" : "+=120%",
-  pin: true,
-});
+// ScrollTrigger.create({
+//   trigger: ".gov-loved-ones-8",
+//   start: "top top",
+//   end: s == "_d" ? "+=720%" : "+=120%",
+//   pin: true,
+// });
 
-// 09_Cover
-ScrollLottie({
-  target: ".ending-9",
-  path: `./animations/09_Cover${s}.json`,
-  duration: s == "_d" ? 1 : 0.6,
-  end: s == "_d" ? "+=350%" : "+=175%",
-  start: "top top",
-  pin: true,
-  startingFrame: 0,
-  aspectRatio : 'xMidYMid slice'
-});
+// // 09_Cover
+// ScrollLottie({
+//   target: ".ending-9",
+//   path: `./animations/09_Cover${s}.json`,
+//   duration: s == "_d" ? 1 : 0.6,
+//   end: s == "_d" ? "+=350%" : "+=175%",
+//   start: "top top",
+//   pin: true,
+//   startingFrame: 0,
+//   aspectRatio : 'xMidYMid slice'
+// });
