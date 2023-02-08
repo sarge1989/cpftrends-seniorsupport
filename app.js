@@ -68,6 +68,9 @@ const ScrollLottie = (obj) => { //https://github.com/chrisgannon/ScrollLottie
       }
     }
   });
+  if (s == "_m") {
+    ScrollTrigger.normalizeScroll(true);
+  }
 }
 
 //01_HSJ
